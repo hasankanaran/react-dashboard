@@ -3,10 +3,10 @@ import React from 'react'
 export default function StatCard() {
   return (
     <div>
-      <p>Number</p>
-      <p>Name</p>
-      <p>Number</p>
-      <p>Feed</p>
+      <p>89K</p>
+      <p>Friends</p>
+      <p>89K</p>
+      <p>Friends</p>
     </div>
   )
 }
