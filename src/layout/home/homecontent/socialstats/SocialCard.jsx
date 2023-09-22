@@ -6,7 +6,11 @@ export default function SocialCard() {
   return (
     <div>
       <SocialLogo/>
+      <div style={{display:'flex'}}>
       <StatCard/>
+      <StatCard/>
+      </div>
+      
     </div>
   )
 }

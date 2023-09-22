@@ -4,9 +4,9 @@ import HomeContent from "./home/HomeContent";
 
 export default function Home() {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex"}}>
       {/* <h1>HomeLayout</h1> */}
-      <LeftMenu />
+      <LeftMenu />      
       <HomeContent />
     </div>
   );

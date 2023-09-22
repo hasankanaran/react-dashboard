@@ -7,8 +7,8 @@ import SocialStats from './homecontent/SocialStats'
 
 export default function HomeContent() {
   return (
-    <div>
-      <h2 style={{color:"blue"}}>HomeContent</h2>
+    <div style={{backgroundColor:'green',width:'100%'}}>
+      
       <PrimaryNavBar/>
       <SecondaryNavBar/>
       <MembersList/>
