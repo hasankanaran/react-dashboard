@@ -7,8 +7,7 @@ import ExtraList from "./leftmenu/ExtraList";
 
 export default function LeftMenu() {
   return (
-    <div style={{backgroundColor:'lightblue'}}>
-      <h2 style={{color:"blue"}}>LeftMenu</h2>
+    <div style={{backgroundColor:'lightblue'}}>      
       <BrandLogo />
       <Dashboard />
       <ThemeList />

@@ -6,7 +6,7 @@ export default function SocialCard() {
   return (
     <div style={{border:'2px black solid'}}>
       <SocialLogo/>
-      <div style={{display:'flex'}}>
+      <div style={{display:'flex',justifyContent:'space-between'}}>
       <StatCard/>
       <StatCard/>
       </div>
