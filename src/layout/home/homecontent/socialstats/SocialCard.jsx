@@ -4,7 +4,7 @@ import StatCard from '../../../../componet/socialcard/StatCard'
 
 export default function SocialCard() {
   return (
-    <div>
+    <div style={{border:'2px black solid'}}>
       <SocialLogo/>
       <div style={{display:'flex'}}>
       <StatCard/>
