@@ -4,6 +4,7 @@ import SecondaryNavBar from './homecontent/SecondaryNavBar'
 import MembersList from './homecontent/MembersList'
 import TrafficGraph from './homecontent/TrafficGraph'
 import SocialStats from './homecontent/SocialStats'
+import OverviewList from './homecontent/OverviewList'
 
 export default function HomeContent() {
   return (
@@ -11,6 +12,7 @@ export default function HomeContent() {
       
       <PrimaryNavBar/>
       <SecondaryNavBar/>
+      <OverviewList/>
       <MembersList/>
       <TrafficGraph/>
       <SocialStats/>
